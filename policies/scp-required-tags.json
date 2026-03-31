@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyCreateWithoutTags",
+      "Effect": "Deny",
+      "Action": "*",
+      "Resource": "*",
+      "Condition": {
+        "StringNotEqualsIfExists": {
+          "aws:RequestTag/Environment": ["Development", "Production"],
+          "aws:RequestTag/CostCenter": ["R&D", "Marketing"],
+          "aws:RequestTag/Owner": "*"
+        }
+      }
+    }
+  ]
+}
