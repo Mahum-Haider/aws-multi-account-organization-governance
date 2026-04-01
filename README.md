@@ -39,7 +39,7 @@ Established private connectivity between two VPCs across AWS regions.
 | **CIDR** | 10.0.0.0/16 | 192.168.0.0/16 |
 | **Private IP** | 10.0.1.84 | 192.168.1.137 |
 
-- Peering Connection ID: `pcx-05886d9f4469fd783` ✅ Active
+- Peering Connection ID: `pcx-05886d9f4469fd783` Active
 - Connectivity validated via ICMP ping test
 
 ![VPC Peering Route Tables](diagrams/route-tables.png)
@@ -70,9 +70,9 @@ Configured AWS Budgets with tiered alerts for EC2 in the Development environment
 
 | Threshold | Action |
 |---|---|
-| ⚠️ 80% | Warning email to resource Owner |
-| 🔶 90% | CostCenter heads notified |
-| 🚨 100% | Alert triggered to Finance admin |
+| 80% | Warning email to resource Owner |
+| 90% | CostCenter heads notified |
+| 100% | Alert triggered to Finance admin |
 
 ---
 
