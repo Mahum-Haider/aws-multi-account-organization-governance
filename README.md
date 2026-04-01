@@ -1,8 +1,8 @@
-# 🏗️ AWS Multi-Account Organization Architecture
+# AWS Multi-Account Organization Architecture
 
 > Designed and implemented a consolidated AWS cloud infrastructure for a pharmaceutical organization, integrating Control Tower, standalone accounts, and an acquired company's AWS environment.
 
-## 📌 Overview
+## Overview
 
 | | |
 |---|---|
@@ -12,9 +12,9 @@
 
 ---
 
-## 🧩 What Was Built
+## What Was Built
 
-### 1️⃣ Multi-Account OU Hierarchy
+### Multi-Account OU Hierarchy
 
 Designed a 3-tier AWS Organizations structure to centralize governance across all accounts.
 
@@ -28,7 +28,7 @@ Designed a 3-tier AWS Organizations structure to centralize governance across al
 
 ---
 
-### 2️⃣ Cross-Region VPC Peering
+### Cross-Region VPC Peering
 
 Established private connectivity between two VPCs across AWS regions.
 
@@ -48,7 +48,7 @@ Established private connectivity between two VPCs across AWS regions.
 
 ---
 
-### 3️⃣ Governance & Tagging Strategy
+### Governance & Tagging Strategy
 
 Enforced org-wide compliance using SCPs and AWS Config rules.
 
@@ -64,7 +64,7 @@ Enforced org-wide compliance using SCPs and AWS Config rules.
 
 ---
 
-### 4️⃣ Cost Management
+### Cost Management
 
 Configured AWS Budgets with tiered alerts for EC2 in the Development environment.
 
@@ -76,7 +76,7 @@ Configured AWS Budgets with tiered alerts for EC2 in the Development environment
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 `AWS Organizations` `AWS Control Tower` `VPC Peering` `IAM` `SCPs`
 `AWS Config` `AWS Budgets` `CloudTrail` `Security Hub` `GuardDuty`
